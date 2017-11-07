@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-servers',
@@ -6,7 +6,6 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
     <app-server></app-server>
     <app-server></app-server>`,
   styleUrls: ['./servers.component.css'],
-  encapsulation: ViewEncapsulation.None
 })
 export class ServersComponent implements OnInit {
 
